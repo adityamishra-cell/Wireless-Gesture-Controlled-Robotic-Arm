@@ -7,16 +7,20 @@
 
 ## Project Overview
 
-The Wireless Gesture Controlled Robotic Arm is a project which is designed to control a robotic arm via natural hand movement. Rather than use a button to operate the arm or a wired controller, the user wears a glove with flex sensors. The flex sensors detect the amount of bend in the fingers and this is then used to control the arm.
+The Wireless Gesture Controlled Robotic Arm is a project which uses hand gesture to control the arm. Instead of using buttons or a controller the arm is controlled by hand gestures using the flex sensors   
 
-The glove uses an Arduino Nano to read the flex sensor values and an nRF24L01+ wireless module to transmit the gesture data. A receiver on the robotic arm picks up the data and translates it into motor commands. This gives you a wireless human machine interface for controlling the arm.
+The glove sense the finger movement and converts into the electrical signal which is then processed by arduino nano present in the glove and then those processed data is send to the robotic arm wirelessly through nRF24L01+ transceiver module. The other arduino nano present in the arm receives gesture data and convert it into the motor command and then robotic  arm replicate the hand movement 
+
+The project is all about the wireless communication and human machine interaction 
 
 ## How It Works
 
-1. Gesture detection: flex sensors in the glove detect when the fingers are bent.
-2. Signal processing: an Arduino Nano reads the sensor values via voltage divider circuits.
-3. Wireless communication: the gesture data is sent to the robotic arm via an nrf24l01+ module.
-4. Motor control: the receiver takes the incoming values and maps them to arm movement.
+1. Gesture detection: There are 5 flex sensors present on every finger of the glove which will give the data on the bending and on the basis of there  range 
+2. Signal processing: An arduino nano will read the analog data coming from the flex sensors through voltage divider circuits 
+3. Data Transmission: After the sensor Data is processed then it is transmitted wirelessly via nRF24L01+ transceiver module
+4. Data Reception: The nRF24L01+ module present at the arm end will receive the data and send it to the another arduino nano of the robotic arm
+5. Motor control: The received data is synced with the appropriate motor positions and movement commands
+6. Arm Movement: Now, the servo motor and stepper motor will perform there movement accurately on the sync with the code.
 
 ## Hardware Design
 
