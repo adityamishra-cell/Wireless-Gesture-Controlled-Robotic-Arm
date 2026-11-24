@@ -1,3 +1,8 @@
+<img width="1470" height="879" alt="Screenshot 2026-11-20 at 9 18 07 PM" src="https://github.com/user-attachments/assets/6be6c744-42a9-42ac-9ae6-0b8331a8252f" />
+<img width="1470" height="956" alt="Screenshot 2026-11-21 at 12 12 47 AM" src="https://github.com/user-attachments/assets/8eba6bd4-6f2c-4695-be0f-d32c6dbf94eb" />
+<img width="1136" height="949" alt="Screenshot 2026-11-21 at 8 37 08 PM" src="https://github.com/user-attachments/assets/85cf361d-3dd0-4868-ae9e-aacd3971ef3f" />
+<img width="1470" height="956" alt="Screenshot 2026-11-21 at 8 34 04 PM" src="https://github.com/user-attachments/assets/80f35e72-d402-4954-a72f-0bb9a090f487" />
+<img width="1600" height="882" alt="PHOTO-2026-11-18-00-02-23" src="https://github.com/user-attachments/assets/31ecf532-e180-4a81-84c9-74c7491e91a3" />
 # Wireless-Gesture-Controlled-Robotic-Arm
 
 ## Project Overview
